@@ -1,0 +1,265 @@
+/*Boje
+osnovna plava: #369581
+text crna: #2b2a2a
+siva: ##fcfcfc
+zuta: #ffd236
+narandzasta:#da7732
+
+Fontovi 
+font-family: 'Cambay', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Trirong', serif;
+*/
+
+/*global*/
+html,
+body {
+  background-color: #369581;
+  margin: 0;
+  color: #2b2a2a;
+  font-family: 'Cambay', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Mulish', sans-serif;
+}
+
+h3,
+h4 {
+  font-family: 'Trirong', serif;
+
+}
+
+p,
+a {
+  font-family: 'Cambay', sans-serif;
+}
+
+/*Nav bar*/
+.nav-bar {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.home-button {
+  font-size: 50px;
+  text-decoration: none;
+  color: #05445E;
+  font-family: 'Nabla', cursive;
+}
+
+.nav-bar-item {
+  width: 20%;
+  text-align: center;
+}
+
+.cvs {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.nav-bar-item a {
+  color: #da7732;
+  text-decoration: none;
+  font-family: 'Trirong', serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-bar-item a:hover {
+  color: #369581;
+  font-size: 20px;
+}
+
+/*Sign up forma*/
+
+.inputPolja {
+  padding: 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 5%;
+  width: 30%;
+  background-color: #58b7a1;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sign-up-dugme,
+.log-in-dugme {
+  background-color: #ffd236;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.sign-up-dugme:hover,
+.log-in-dugme:hover {
+  background-color: #da7732;
+}
+
+#form-wrapper {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*Kartica automobila*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 30%;
+  margin: auto;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+
+.price {
+  color: #ffd236;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #da7732;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  display: flex;
+}
+
+.section-1 {
+  background: url("assets/header-img.webp");
+  height: 533px;
+
+}
+
+.section-2 {
+  background-color: white;
+  padding: 20px;
+}
+
+.loginMessage {
+  font-size: 30px;
+}
+
+.homepagebutton {
+  background-color: whitesmoke;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.homepagebutton:hover {
+  background-color: whitesmoke;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.login-success {
+  text-align: center;
+}
+
+/*Categories*.card*/
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #da7732;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Trirong', serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: #369581;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  float: none;
+  color: #da7732;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  text-align: left;
+  border: none;
+  height: 40px;
+  font-family: 'Trirong', serif;
+  background-color: transparent;
+  width: 100%;
+}
+
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

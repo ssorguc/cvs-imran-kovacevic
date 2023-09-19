@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="assets/logo.png" type="image/x-icon" class="title-icon" />
+
+<head>
+  <title>CarVibeShop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cambay&family=Mulish:wght@300&family=Trirong:wght@100&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class="nav-bar">
+    <div class="cvs">
+      <a href="index.html" class="home-button">CVS</a>
+    </div>
+    <div class="nav-bar-item">
+      <a>Categories</a>
+    </div>
+    <div class="nav-bar-item">
+      <a href="signup.html" class="sign-up">Sign up</a>
+    </div>
+    <div class="nav-bar-item">
+      <a href="login.html" class="log-in">Log in</a>
+    </div>
+  </div>
+
+  <div id="form-wrapper">
+    <div class="inputPolja">
+      <form id="login-form">
+        <h2>Log In</h2>
+        <p id="error"></p>
+        <label for="username">Username:</label>
+        <input id="username" type="text" id="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br>
+        <p id="poruka"></p>
+        <a onclick="login()" class="log-in-dugme" type="submit">Log In</a>
+      </form>
+    </div>
+  </div>
+  <script src="app.js">
+  </script>
+</body>
+
+</html>
